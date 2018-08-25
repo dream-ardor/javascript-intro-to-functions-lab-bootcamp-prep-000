@@ -6,6 +6,12 @@ function shout(string) {
   return string.toLowerCase()
 }
 
+function shout(string) {
+  return string.toUpperCase()
+}
+
+
+
 
 function sayHiToGrandma(string){
     if (string.toLowerCase() === string){
